@@ -1,0 +1,276 @@
+
+A train B test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.49      1.00      0.66       528
+
+    accuracy                           0.49      1074
+   macro avg       0.25      0.50      0.33      1074
+weighted avg       0.24      0.49      0.32      1074
+
+B train A test KNN Affirmative
+
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.39      1.00      0.56       414
+
+    accuracy                           0.39      1062
+   macro avg       0.19      0.50      0.28      1062
+weighted avg       0.15      0.39      0.22      1062
+
+0.5609756097560975
+Oversampling A train B test KNN Affirmative
+
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.50      1.00      0.67       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+Oversampling B train A test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.50      1.00      0.67       648
+
+    accuracy                           0.50      1296
+   macro avg       0.25      0.50      0.33      1296
+weighted avg       0.25      0.50      0.33      1296
+
+0.6666666666666666
+Undersampling A train B test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       528
+         1.0       0.50      1.00      0.67       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+Undersampling B train A test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       414
+         1.0       0.50      1.00      0.67       414
+
+    accuracy                           0.50       828
+   macro avg       0.25      0.50      0.33       828
+weighted avg       0.25      0.50      0.33       828
+
+
+PCA A train B test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.51      1.00      0.67       546
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.51      1074
+   macro avg       0.25      0.50      0.34      1074
+weighted avg       0.26      0.51      0.34      1074
+
+PCA B train A test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.77      0.28      0.41       648
+         1.0       0.44      0.86      0.58       414
+
+    accuracy                           0.51      1062
+   macro avg       0.60      0.57      0.50      1062
+weighted avg       0.64      0.51      0.48      1062
+
+0.47868717820996903
+Oversampling PCA A train B test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       546
+         1.0       0.00      0.00      0.00       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+
+
+
+Oversampling PCA B train A test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.68      0.28      0.40       648
+         1.0       0.55      0.87      0.67       648
+
+    accuracy                           0.57      1296
+   macro avg       0.61      0.57      0.53      1296
+weighted avg       0.61      0.57      0.53      1296
+
+0.5335491089475592
+Undersampling PCA A train B test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       528
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+
+
+
+Undersampling PCA B train A test KNN Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.50      0.57       414
+         1.0       0.60      0.75      0.67       414
+
+    accuracy                           0.62       828
+   macro avg       0.63      0.62      0.62       828
+weighted avg       0.63      0.62      0.62       828
+
+A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.01      0.02      1445
+         1.0       0.29      1.00      0.45       589
+
+    accuracy                           0.29      2034
+   macro avg       0.65      0.50      0.23      2034
+weighted avg       0.79      0.29      0.14      2034
+
+B train A test KNN Conditional
+
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.71      1.00      0.83      1359
+         1.0       0.00      0.00      0.00       548
+
+    accuracy                           0.71      1907
+   macro avg       0.36      0.50      0.42      1907
+weighted avg       0.51      0.71      0.59      1907
+
+0.8322106552357624
+Oversampling A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.13      0.00      0.00      1445
+         1.0       0.50      0.99      0.66      1445
+
+    accuracy                           0.50      2890
+   macro avg       0.32      0.50      0.33      2890
+weighted avg       0.32      0.50      0.33      2890
+
+0.3328513444951801
+Oversampling B train A test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67      1359
+         1.0       1.00      0.00      0.01      1359
+
+    accuracy                           0.50      2718
+   macro avg       0.75      0.50      0.34      2718
+weighted avg       0.75      0.50      0.34      2718
+
+0.3365953952256858
+Undersampling A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       589
+         1.0       0.50      1.00      0.67       589
+
+    accuracy                           0.50      1178
+   macro avg       0.25      0.50      0.33      1178
+weighted avg       0.25      0.50      0.33      1178
+
+0.6666666666666666
+
+Undersampling B train A test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.51      1.00      0.68       548
+         1.0       0.97      0.06      0.11       548
+
+    accuracy                           0.53      1096
+   macro avg       0.74      0.53      0.39      1096
+weighted avg       0.74      0.53      0.39      1096
+
+PCA A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.71      1.00      0.83      1445
+         1.0       0.67      0.01      0.03       589
+
+    accuracy                           0.71      2034
+   macro avg       0.69      0.51      0.43      2034
+weighted avg       0.70      0.71      0.60      2034
+
+PCA B train A test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.71      0.97      0.82      1359
+         1.0       0.27      0.03      0.06       548
+
+    accuracy                           0.70      1907
+   macro avg       0.49      0.50      0.44      1907
+weighted avg       0.58      0.70      0.60      1907
+
+0.6002512314686452
+Oversampling PCA A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.99      0.67      1445
+         1.0       0.72      0.03      0.06      1445
+
+    accuracy                           0.51      2890
+   macro avg       0.61      0.51      0.36      2890
+weighted avg       0.61      0.51      0.36      2890
+
+0.36260651629072693
+Oversampling PCA B train A test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.74      0.63      1359
+         1.0       0.59      0.37      0.46      1359
+
+    accuracy                           0.56      2718
+   macro avg       0.57      0.56      0.54      2718
+weighted avg       0.57      0.56      0.54      2718
+
+0.5407499855692254
+Undersampling PCA A train B test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.99      0.67       589
+         1.0       0.65      0.02      0.04       589
+
+    accuracy                           0.51      1178
+   macro avg       0.58      0.51      0.35      1178
+weighted avg       0.58      0.51      0.35      1178
+
+0.3544889996738486
+Undersampling PCA B train A test KNN Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.78      0.65       548
+         1.0       0.62      0.37      0.46       548
+
+    accuracy                           0.57      1096
+   macro avg       0.59      0.57      0.55      1096
+weighted avg       0.59      0.57      0.55      1096
+
+0.5543786488740616
+

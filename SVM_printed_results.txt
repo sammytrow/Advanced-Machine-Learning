@@ -1,0 +1,702 @@
+A train B test SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.51      1.00      0.67       546
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.51      1074
+   macro avg       0.25      0.50      0.34      1074
+weighted avg       0.26      0.51      0.34      1074
+
+B train A test SVM Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.39      1.00      0.56       414
+
+    accuracy                           0.39      1062
+   macro avg       0.19      0.50      0.28      1062
+weighted avg       0.15      0.39      0.22      1062
+
+0.5609756097560975
+
+A train B test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.49      1.00      0.66       528
+
+    accuracy                           0.49      1074
+   macro avg       0.25      0.50      0.33      1074
+weighted avg       0.24      0.49      0.32      1074
+
+B train A test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.39      1.00      0.56       414
+
+    accuracy                           0.39      1062
+   macro avg       0.19      0.50      0.28      1062
+weighted avg       0.15      0.39      0.22      1062
+
+0.5609756097560975
+
+Oversampling A train B test SVM Affirmative
+
+  
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       546
+         1.0       0.00      0.00      0.00       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+
+
+Oversampling B train A test SVM Affirmative
+Fold:  0.6126373626373627
+Fold:  0.7637362637362637
+Fold:  0.5989010989010989
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.50      1.00      0.67       648
+
+    accuracy                           0.50      1296
+   macro avg       0.25      0.50      0.33      1296
+weighted avg       0.25      0.50      0.33      1296
+
+0.6666666666666666
+Oversampling A train B test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.50      1.00      0.67       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+Oversampling B train A test scratch SVM Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.50      1.00      0.67       648
+
+    accuracy                           0.50      1296
+   macro avg       0.25      0.50      0.33      1296
+weighted avg       0.25      0.50      0.33      1296
+
+0.6666666666666666
+
+Undersampling A train B test SVM Affirmative
+Fold:  0.7644927536231884
+Fold:  0.8043478260869565
+Fold:  0.7644927536231884
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       528
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+Undersampling B train A test SVM Affirmative
+Fold:  0.6420454545454546
+Fold:  0.7926136363636364
+Fold:  0.7926136363636364
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       414
+         1.0       0.50      1.00      0.67       414
+
+    accuracy                           0.50       828
+   macro avg       0.25      0.50      0.33       828
+weighted avg       0.25      0.50      0.33       828
+
+0.6666666666666666
+
+Undersampling A train B test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       528
+         1.0       0.50      1.00      0.67       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+Undersampling B train A test scratch SVM Affirmative
+
+  
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       414
+         1.0       0.50      1.00      0.67       414
+
+    accuracy                           0.50       828
+   macro avg       0.25      0.50      0.33       828
+weighted avg       0.25      0.50      0.33       828
+
+0.6666666666666666
+
+
+PCA A train B test SVM Affirmative
+Fold:  0.7090395480225988
+Fold:  0.6440677966101694
+Fold:  0.6977401129943502
+
+              precision    recall  f1-score   support
+
+         0.0       0.51      1.00      0.67       546
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.51      1074
+   macro avg       0.25      0.50      0.34      1074
+weighted avg       0.26      0.51      0.34      1074
+
+0.674074074074074
+PCA B train A test SVM Affirmative
+Fold:  0.611731843575419
+Fold:  0.5558659217877095
+Fold:  0.7737430167597765
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.97      0.74       648
+         1.0       0.19      0.01      0.02       414
+
+    accuracy                           0.60      1062
+   macro avg       0.40      0.49      0.38      1062
+weighted avg       0.44      0.60      0.46      1062
+
+PCA A train B test scratch SVM Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.49      1.00      0.66       528
+
+    accuracy                           0.49      1074
+   macro avg       0.25      0.50      0.33      1074
+weighted avg       0.24      0.49      0.32      1074
+
+PCA B train A test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.39      1.00      0.56       414
+
+    accuracy                           0.39      1062
+   macro avg       0.19      0.50      0.28      1062
+weighted avg       0.15      0.39      0.22      1062
+
+
+Oversampling PCA A train B test SVM Affirmative
+Fold:  0.6064814814814815
+Fold:  0.6134259259259259
+Fold:  0.6921296296296297
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       546
+         1.0       0.00      0.00      0.00       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+Oversampling PCA B train A test SVM Affirmative
+Fold:  0.5989010989010989
+Fold:  0.5604395604395604
+Fold:  0.7527472527472527
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.97      0.65       648
+         1.0       0.25      0.01      0.02       648
+
+    accuracy                           0.49      1296
+   macro avg       0.37      0.49      0.34      1296
+weighted avg       0.37      0.49      0.34      1296
+
+0.33759928845845016
+Oversampling PCA A train B test scratch SVM Affirmative
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       546
+         1.0       0.50      1.00      0.67       546
+
+    accuracy                           0.50      1092
+   macro avg       0.25      0.50      0.33      1092
+weighted avg       0.25      0.50      0.33      1092
+
+0.6666666666666666
+Oversampling PCA B train A test scratch SVM Affirmative
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       648
+         1.0       0.50      1.00      0.67       648
+
+    accuracy                           0.50      1296
+   macro avg       0.25      0.50      0.33      1296
+weighted avg       0.25      0.50      0.33      1296
+
+0.6666666666666666
+Undersampling PCA A train B test SVM Affirmative
+Fold:  0.6920289855072463
+Fold:  0.6594202898550725
+Fold:  0.6557971014492754
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       528
+         1.0       0.00      0.00      0.00       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+
+Undersampling PCA B train A test SVM Affirmative
+Fold:  0.5625
+Fold:  0.7528409090909091
+Fold:  0.5852272727272727
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.94      0.65       414
+         1.0       0.27      0.02      0.04       414
+
+    accuracy                           0.48       828
+   macro avg       0.38      0.48      0.34       828
+weighted avg       0.38      0.48      0.34       828
+
+0.34271487334920975
+Undersampling PCA A train B test scratch SVM Affirmative
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       528
+         1.0       0.50      1.00      0.67       528
+
+    accuracy                           0.50      1056
+   macro avg       0.25      0.50      0.33      1056
+weighted avg       0.25      0.50      0.33      1056
+
+0.6666666666666666
+Undersampling PCA B train A test scratch SVM Affirmative
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       414
+         1.0       0.50      1.00      0.67       414
+
+    accuracy                           0.50       828
+   macro avg       0.25      0.50      0.33       828
+weighted avg       0.25      0.50      0.33       828
+
+0.6666666666666666
+
+A train B test SVM Conditional
+Fold:  0.9449685534591195
+Fold:  0.9481132075471698
+Fold:  0.9385826771653544
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.00      0.00      1445
+         1.0       0.29      1.00      0.45       589
+
+    accuracy                           0.29      2034
+   macro avg       0.64      0.50      0.23      2034
+weighted avg       0.79      0.29      0.13      2034
+
+0.13108250013762668
+
+B train A test SVM Conditional
+Fold:  0.8893805309734514
+Fold:  0.8569321533923304
+Fold:  0.8230088495575221
+
+              precision    recall  f1-score   support
+
+         0.0       0.71      1.00      0.83      1359
+         1.0       0.00      0.00      0.00       548
+
+    accuracy                           0.71      1907
+   macro avg       0.36      0.50      0.42      1907
+weighted avg       0.51      0.71      0.59      1907
+
+0.8322106552357624
+A train B test scratch SVM Conditional
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1445
+         1.0       0.29      1.00      0.45       589
+
+    accuracy                           0.29      2034
+   macro avg       0.14      0.50      0.22      2034
+weighted avg       0.08      0.29      0.13      2034
+
+0.44910407929851315
+B train A test scratch SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1359
+         1.0       0.29      1.00      0.45       548
+
+    accuracy                           0.29      1907
+   macro avg       0.14      0.50      0.22      1907
+weighted avg       0.08      0.29      0.13      1907
+
+0.4464358452138493
+
+Oversampling A train B test SVM Conditional
+Fold:  0.9536423841059603
+Fold:  0.9580573951434879
+Fold:  0.956953642384106
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1445
+         1.0       0.50      1.00      0.67      1445
+
+    accuracy                           0.50      2890
+   macro avg       0.25      0.50      0.33      2890
+weighted avg       0.25      0.50      0.33      2890
+
+0.6666666666666666
+
+  
+Oversampling B train A test SVM Conditional
+Fold:  0.8226141078838174
+Fold:  0.8878504672897196
+Fold:  0.8213914849428868
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67      1359
+         1.0       0.00      0.00      0.00      1359
+
+    accuracy                           0.50      2718
+   macro avg       0.25      0.50      0.33      2718
+weighted avg       0.25      0.50      0.33      2718
+
+0.6666666666666666
+Oversampling A train B test scratch SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1445
+         1.0       0.50      1.00      0.67      1445
+
+    accuracy                           0.50      2890
+   macro avg       0.25      0.50      0.33      2890
+weighted avg       0.25      0.50      0.33      2890
+
+0.6666666666666666
+Oversampling B train A test scratch SVM Conditional
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1359
+         1.0       0.50      1.00      0.67      1359
+
+    accuracy                           0.50      2718
+   macro avg       0.25      0.50      0.33      2718
+weighted avg       0.25      0.50      0.33      2718
+
+0.6666666666666666
+
+Undersampling A train B test SVM Conditional
+Fold:  0.8961748633879781
+Fold:  0.9452054794520548
+Fold:  0.9260273972602739
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       589
+         1.0       0.50      1.00      0.67       589
+
+    accuracy                           0.50      1178
+   macro avg       0.25      0.50      0.33      1178
+weighted avg       0.25      0.50      0.33      1178
+
+0.6666666666666666
+Undersampling B train A test SVM Conditional
+Fold:  0.7938931297709924
+Fold:  0.9007633587786259
+Fold:  0.7882653061224489
+              precision    recall  f1-score   support
+
+         0.0       0.50      1.00      0.67       548
+         1.0       0.00      0.00      0.00       548
+
+    accuracy                           0.50      1096
+   macro avg       0.25      0.50      0.33      1096
+weighted avg       0.25      0.50      0.33      1096
+
+0.6666666666666666
+
+Undersampling A train B test scratch SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       589
+         1.0       0.50      1.00      0.67       589
+
+    accuracy                           0.50      1178
+   macro avg       0.25      0.50      0.33      1178
+weighted avg       0.25      0.50      0.33      1178
+
+0.6666666666666666
+Undersampling B train A test scratch SVM Conditional
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       548
+         1.0       0.50      1.00      0.67       548
+
+    accuracy                           0.50      1096
+   macro avg       0.25      0.50      0.33      1096
+weighted avg       0.25      0.50      0.33      1096
+
+0.6666666666666666
+0.9224692467001022 0.8276405982240224
+[4.42832969e-01 2.40001684e-01 1.71650397e-01 4.34834892e-02
+ 1.11720004e-02 1.02222952e-02 6.70416834e-03 6.33812611e-03
+ 5.65308394e-03 4.68988031e-03 4.24542933e-03 3.88623337e-03
+ 3.52908141e-03 3.31810434e-03 3.10161302e-03 2.73527167e-03
+ 2.64787899e-03 2.50283324e-03 2.38405057e-03 2.18721255e-03
+ 2.09618608e-03 1.97587386e-03 1.82649670e-03 1.80296198e-03
+ 1.66326796e-03 1.49695553e-03 1.36229477e-03 1.23358612e-03
+ 1.18604823e-03 1.13095973e-03 9.44397092e-04 9.22011268e-04
+ 8.35871529e-04 7.14019714e-04 6.87457761e-04 5.97401418e-04
+ 5.10349570e-04 4.82274082e-04 4.45464077e-04 4.04407091e-04
+ 3.24437242e-04 2.75457800e-04 2.50450584e-04 2.10417821e-04
+ 2.06607684e-04 1.85138670e-04 1.62353148e-04 1.38647719e-04
+ 1.26188715e-04 1.20626623e-04 1.15554690e-04 1.09581877e-04
+ 9.73449708e-05 9.05944033e-05 8.18879954e-05 8.09004432e-05
+ 7.23598326e-05 7.06498520e-05 6.24693357e-05 6.03117921e-05
+ 5.67015269e-05 5.32951636e-05 5.16503329e-05 4.98446371e-05
+ 4.90011784e-05 4.52707636e-05 4.42031754e-05 4.26317971e-05
+ 4.13796307e-05 4.03796622e-05 3.93056428e-05 3.77633028e-05
+ 3.67037008e-05 3.54675871e-05 3.41222150e-05 3.29674272e-05
+ 3.18001376e-05 3.13972512e-05 3.06127314e-05 2.94231006e-05
+ 2.83898051e-05 2.75523582e-05 2.72665282e-05 2.69656850e-05
+ 2.66049304e-05 2.57109791e-05 2.51638781e-05 2.43454779e-05
+ 2.37589448e-05 2.33600523e-05 2.26564906e-05 2.24384216e-05
+ 2.12928058e-05 2.07724328e-05 2.05889629e-05 2.04566455e-05
+ 1.97521272e-05 1.93076165e-05 1.89447604e-05 1.82770961e-05
+ 1.81628712e-05 1.80563454e-05 1.72481017e-05 1.69222887e-05
+ 1.65045956e-05 1.63155400e-05 1.58744156e-05 1.52672655e-05
+ 1.48529854e-05 1.42678697e-05 1.37312142e-05 1.34088938e-05
+ 1.24586722e-05 1.18427846e-05 1.07042738e-05 1.02105689e-05
+ 8.19035381e-06 7.20174026e-06 6.59551165e-06 5.19155676e-06
+ 3.15678398e-06 2.68731970e-06 1.98081948e-06 1.28945102e-06
+ 1.06059660e-06 8.20734314e-07 5.67148042e-07 3.91234959e-07
+ 3.56227726e-07 3.10941096e-07 2.20851213e-07 1.12822615e-07
+ 9.89210135e-08 8.60362981e-08 6.46149786e-08 4.99778849e-08
+ 4.31486783e-08 2.75492510e-08 2.09684034e-08 1.45577633e-08
+ 1.44184207e-08 6.76942042e-09 5.16164876e-09 3.35306876e-09
+ 1.67191190e-09 1.43742939e-09 1.03897995e-09 7.94004163e-10
+ 4.17328303e-10 2.34396912e-10 1.31287333e-10 8.55253632e-11
+ 7.10658817e-11 6.28169944e-11 5.15613986e-11 4.73857580e-11
+ 4.13138269e-11 3.58731302e-11 3.52108975e-11 3.41261661e-11
+ 3.11174077e-11 3.01848443e-11 2.85585114e-11 2.80623929e-11
+ 2.72997058e-11 2.72833247e-11 2.61983162e-11 2.59583490e-11
+ 2.53795935e-11 2.52056396e-11 2.50841438e-11 2.48293542e-11
+ 2.42978890e-11 2.37278480e-11 2.33023176e-11 2.32069871e-11
+ 2.28709297e-11 2.24973143e-11 2.19759935e-11 2.17721006e-11
+ 2.12851170e-11 2.12353731e-11 2.10759898e-11 2.09880419e-11
+ 2.07217294e-11 2.06449066e-11 2.04112134e-11 2.00945541e-11
+ 1.96903580e-11 1.95050133e-11 1.91777748e-11 1.88731623e-11
+ 1.85940627e-11 1.85871946e-11 1.81413998e-11 1.78061544e-11
+ 1.77273040e-11 1.75264073e-11 1.73800135e-11 1.71105717e-11
+ 1.65981066e-11 1.65618036e-11 1.64358065e-11 1.61203871e-11
+ 1.59946941e-11 1.57081192e-11 1.51714027e-11 1.46538407e-11
+ 1.45164258e-11 1.42830256e-11 1.39835916e-11 1.37882351e-11
+ 1.35065928e-11 1.33419593e-11 1.30366516e-11 1.27659548e-11
+ 1.25985702e-11 1.21864621e-11 1.18930691e-11 1.16512729e-11
+ 1.12681326e-11 1.08874523e-11 1.04050081e-11 1.01531737e-11
+ 9.77792872e-12 8.70472223e-12 8.54641414e-12 8.35016452e-12
+ 8.18278113e-12 8.00027616e-12 7.66487893e-12 7.44135762e-12
+ 7.19660237e-12 7.14848356e-12 6.91455878e-12 6.82437336e-12
+ 6.69661333e-12 6.66246742e-12 6.55652895e-12 6.39921024e-12
+ 6.35688157e-12 6.31882782e-12 6.04312661e-12 6.01709458e-12
+ 5.88362724e-12 5.79831712e-12 5.69064844e-12 5.54889688e-12
+ 5.46920390e-12 5.38036408e-12 5.30569520e-12 5.24580992e-12
+ 5.15545528e-12 5.11698156e-12 5.05835162e-12 4.97754384e-12
+ 4.92749849e-12 4.88561094e-12 4.80300316e-12 4.73885307e-12
+ 4.69141509e-12 4.68757454e-12 4.56593147e-12 4.44907343e-12
+ 4.38790729e-12 4.36689277e-12 4.33697290e-12 4.28922045e-12
+ 4.27995017e-12 4.16852880e-12 4.09734074e-12 4.04898992e-12
+ 3.99260267e-12 3.87454740e-12 3.84606725e-12 3.81708263e-12
+ 3.74106335e-12 3.68394081e-12 3.53206436e-12 3.49563892e-12
+ 3.40537561e-12 3.31856360e-12 3.28886940e-12 3.16152386e-12
+ 3.11927034e-12 2.99161319e-12 2.91966531e-12 2.91447860e-12
+ 2.70858884e-12 2.70231740e-12 2.62593516e-12 2.59939835e-12
+ 2.48113366e-12 2.46007838e-12 2.42916276e-12 2.32531156e-12
+ 2.28959534e-12 2.22675606e-12 2.18569814e-12 2.11812489e-12
+ 2.05916720e-12]
+ 
+PCA A train B test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.71      0.99      0.83      1445
+         1.0       0.57      0.02      0.04       589
+
+    accuracy                           0.71      2034
+   macro avg       0.64      0.51      0.44      2034
+weighted avg       0.67      0.71      0.60      2034
+
+0.6022656874259591
+PCA B train A test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.99      0.83      1359
+         1.0       0.44      0.03      0.05       548
+
+    accuracy                           0.71      1907
+   macro avg       0.58      0.51      0.44      1907
+weighted avg       0.64      0.71      0.61      1907
+
+0.6065953028114905
+PCA A train B test scratch SVM Conditional
+
+  
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1445
+         1.0       0.29      1.00      0.45       589
+
+    accuracy                           0.29      2034
+   macro avg       0.14      0.50      0.22      2034
+weighted avg       0.08      0.29      0.13      2034
+
+0.44910407929851315
+PCA B train A test scratch SVM Conditional
+
+
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1359
+         1.0       0.29      1.00      0.45       548
+
+    accuracy                           0.29      1907
+   macro avg       0.14      0.50      0.22      1907
+weighted avg       0.08      0.29      0.13      1907
+
+0.4464358452138493
+Oversampling PCA A train B test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.99      0.66      1445
+         1.0       0.55      0.02      0.03      1445
+
+    accuracy                           0.50      2890
+   macro avg       0.53      0.50      0.35      2890
+weighted avg       0.53      0.50      0.35      2890
+
+0.34951582569725104
+Oversampling PCA B train A test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.94      0.65      1359
+         1.0       0.39      0.04      0.07      1359
+
+    accuracy                           0.49      2718
+   macro avg       0.44      0.49      0.36      2718
+weighted avg       0.44      0.49      0.36      2718
+
+0.3599541247047966
+Oversampling PCA A train B test scratch SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1445
+         1.0       0.50      1.00      0.67      1445
+
+    accuracy                           0.50      2890
+   macro avg       0.25      0.50      0.33      2890
+weighted avg       0.25      0.50      0.33      2890
+
+0.6666666666666666
+
+Oversampling PCA B train A test scratch SVM Conditional
+
+  
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00      1359
+         1.0       0.50      1.00      0.67      1359
+
+    accuracy                           0.50      2718
+   macro avg       0.25      0.50      0.33      2718
+weighted avg       0.25      0.50      0.33      2718
+
+0.6666666666666666
+
+
+Undersampling PCA A train B test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.99      0.67       589
+         1.0       0.62      0.02      0.04       589
+
+    accuracy                           0.50      1178
+   macro avg       0.56      0.50      0.35      1178
+weighted avg       0.56      0.50      0.35      1178
+
+0.35407207105702965
+Undersampling PCA B train A test SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.49      0.91      0.63       548
+         1.0       0.33      0.05      0.08       548
+
+    accuracy                           0.48      1096
+   macro avg       0.41      0.48      0.36      1096
+weighted avg       0.41      0.48      0.36      1096
+
+0.35826406995295396
+Undersampling PCA A train B test scratch SVM Conditional
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       589
+         1.0       0.50      1.00      0.67       589
+
+    accuracy                           0.50      1178
+   macro avg       0.25      0.50      0.33      1178
+weighted avg       0.25      0.50      0.33      1178
+
+0.6666666666666666
+Undersampling PCA B train A test scratch SVM Conditional
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       548
+         1.0       0.50      1.00      0.67       548
+
+    accuracy                           0.50      1096
+   macro avg       0.25      0.50      0.33      1096
+weighted avg       0.25      0.50      0.33      1096
+
+0.6666666666666666
